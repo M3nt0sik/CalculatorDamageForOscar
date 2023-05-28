@@ -12,7 +12,7 @@ internal class Program
         {
             Console.Write("\nM - miecz, S - strzały, inne znaki - koniec");
             char key = char.ToUpper(Console.ReadKey(true).KeyChar);
-            Console.WriteLine("0 - ani magiczny ani płonący; 1 - magiczny; 2 - płonący; 3 - magiczny i płonący; inne wartości koniec");
+            Console.WriteLine("\n0 - ani magiczny ani płonący; 1 - magiczny; 2 - płonący; 3 - magiczny i płonący; inne wartości koniec");
             Console.Write("Wybierza atak: ");
             char userchose;
 
