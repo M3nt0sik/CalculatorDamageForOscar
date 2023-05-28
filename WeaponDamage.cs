@@ -70,7 +70,7 @@ namespace CalculatorDamageForOscar
         /// <remarks>
         /// Getter renturns value fire damage 
         /// </remarks>
-        public int Damage { get; private set; }
+        public int Damage { get; protected set; }
         /// <summary>
         /// Propertis for sets new value of roll
         /// </summary>
