@@ -13,7 +13,13 @@ namespace CalculatorDamageForOscar
         private int roll;
         private bool flaming;
         private bool magic;
-       
+
+        public WeaponDamage(int Roll)
+        {
+            roll = Roll;
+            magic = false;
+            flaming = false;
+        }
 
         //public decimal MagicMultipler = 1M;
         //public int FlamingDamage = 0;
