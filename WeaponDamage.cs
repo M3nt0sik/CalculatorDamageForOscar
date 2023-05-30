@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalculatorDamageForOscar
 {
-    internal class WeaponDamage
+    internal abstract class WeaponDamage
     {
         private const int BaseDamage = 3;
         private const int FlameDamage = 2;
@@ -25,10 +25,7 @@ namespace CalculatorDamageForOscar
         //public int FlamingDamage = 0;
         //public int Damage;
 
-        protected virtual void CalculateDamage()
-        {
-            /*Do przesłoniecia w poklasach*/
-        }
+        protected abstract void CalculateDamage();
         /// <summary>
         /// Propertis to magic damage
         /// </summary>
